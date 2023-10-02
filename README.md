@@ -1,4 +1,4 @@
-# MongoDB Atlas & pymongo Sample Project
+# AMOL's MongoDB Atlas & pymongo Interview Recorder
 
 This repository contains a very basic example application 
 built with the [pymongo](https://docs.mongodb.com/drivers/pymongo)
