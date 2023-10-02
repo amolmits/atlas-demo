@@ -11,4 +11,6 @@ COPY . /opt/atlas_starter_python/
 
 WORKDIR /opt/atlas_starter_python/
 
-CMD ["/bin/bash"]
+#CMD ["/bin/bash"]
+CMD ["python3", "./interview-recorder.py" ]
+#CMD ["python3", "./atlas-starter.py" ]
