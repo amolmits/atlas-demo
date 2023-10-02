@@ -1,4 +1,4 @@
-# AMOL's MongoDB Atlas & pymongo Interview Recorder
+# AMOL's Interview Recorder (uses MongoDB Atlas)
 
 This repository contains a very basic example application 
 built with the [pymongo](https://docs.mongodb.com/drivers/pymongo)
