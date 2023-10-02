@@ -19,12 +19,12 @@ db = client.myDatabase
 # use a collection named "recipes"
 my_collection = db["Interviews"]
 
-name_c1 = input("Candidate Name!\n")
-name_p1 = input("Enter Interviewer 1 Name!\n")
-name_p2 = input("Enter Interviewer 2 Name!\n")
-name_p3 = input("Enter Interviewer 3 Name!\n")
-date = input("Enter Interview Date!\n")
-feed = input("Enter Feedback!\n")
+name_c1 = input("\nCandidate Name!\n")
+name_p1 = input("\nEnter Interviewer 1 Name!\n")
+name_p2 = input("\nEnter Interviewer 2 Name!\n")
+name_p3 = input("\nEnter Interviewer 3 Name!\n")
+date = input("\nEnter Interview Date!\n")
+feed = input("\nEnter Feedback!\n")
 
 interview_document = [{"candidate_name":name_c1, "interviewers":[name_p1, name_p2,name_p3], "interview_date":date, "interview_feedback":feed}]
 
